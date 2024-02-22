@@ -25,6 +25,27 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "16c3542e-a82e-4b14-8447-0f9f0c220e3f"
+      }
+    },
+    "owner": "edon-silva",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/16c3542e-a82e-4b14-8447-0f9f0c220e3f"
+    },
+   
+    "plugins": [
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Allow $(PRODUCT_NAME) to access your camera."
+        }
+      ]
+    ]
   }
 }
